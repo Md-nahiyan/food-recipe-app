@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food recipe</title>
+    <link href="src/output.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header-area bg-[#212836]">
+        <div class="container mx-auto text-center ">
+            <h1 class="text-white text-3xl font-semibold capitalize pt-10 py-10 ">Search for your Meal</h1>
+
+            <div class="container mx-auto w-[600px] flex justify-between items-center bg-white h-[65px] rounded-xl px-3">
+                <input type="text" class="w-full outline-none p-5 rounded-xl " id="input">
+                <button class="w-[140px] h-[50px] bg-orange-500 rounded-xl text-white text-xl font-semibold search">Search</button>
+            </div>
+        </div>
+        <div class="container mx-auto border border-gray-600 min-h-[600px] mt-10"  >
+            <h1 class="text-center text-3xl text-white font-semibold mt-10 capitalize" id="search-meal">No Meal to Show</h1>
+            <div class="meal-wrapper grid grid-cols-4 gap-4 px-5 py-5">
+                <!-- <div class="meal-box border border-gray-500 rounded-xl w-">
+                    <img src="https://th.bing.com/th/id/R.afb7fed517d703511851bdd48e03356f?rik=olfnYNaOt4S4Kw&pid=ImgRaw&r=0" alt="" class="rounded-xl object-fit">
+                    <h3 class="text-[#DBD4CB] px-3 py-3 text-xl capitalize">Split pea soup</h3>
+                    <p class="px-3 py-1 text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Perspiciatis harum aut dolorem earum sunt ducimus inventore numquam iste nemo nulla.</p>
+                    <p class="italic text-gray-500 px-3"> <span>Tuinisian</span> <span>vegiterian</span> </p>
+                    <div class="px-3 my-4">
+                        <a href="#" class="bg-orange-500 hover:bg-orange-700 rounded px-4 py-2 text-white text-xl">watch</a>
+                        <button class="btn mx-5 text-white text-xl">view Recipe</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="details invisible">
+            <!-- <div class="w-[60%] bg-[white] h-[500px] fixed top-[20%] left-[20%] overflow-auto p-10">
+                <h2 class="font-semibold  text-2xl">jkdfghdsjfd</h2>
+                <p class="font-2xl text-gray-500 mt-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam repellat eum sapiente expedita sunt repellendus soluta cum accusamus, eaque quidem.
+
+                </p>
+                <button class="px-5 py-3 bg-orange-600 text-[white] rounded-xl mt-10">close now</button>
+            </div> -->
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
